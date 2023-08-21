@@ -1,0 +1,8 @@
+include<stdio.h>
+int main()
+{
+int i=1,base=10, power-4, result=1; scanf("%d %d", &base, &power); for (i=1;i<=power; i++)
+{
+result=result*base;
+}
+printf("result is %d", result); }
