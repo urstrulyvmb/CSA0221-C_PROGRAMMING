@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int start, end;
+    printf("Enter the start and end values: ");
+    scanf("%d %d", &start, &end);
+
+    if (start % 2 != 0) {
+        start++; // Make sure the start value is even
+    }
+
+    int sum = 0;
+    for (int i = start; i <= end; i += 2) {
+        sum += i;
+    }
+
+    printf("Sum of even numbers between %d and %d is %d\n", start, end, sum);
+
+    return 0;
+}
