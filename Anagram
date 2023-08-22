@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main ()  
+{  
+    char st1[50], st2[50];  
+    printf (" Input the first string: ");  
+    gets(st1);  
+    printf (" Input the second string: ");  
+    gets(st2);  
+    if (strAna (st1, st2))  
+    {  
+        printf (" \n The first string is an anagram of the second string. ");  
+    }  
+    else  
+    {  
+        printf (" \n The first string is not an anagram of the second string. ");  
+    }  
+    return 0;  
+}
