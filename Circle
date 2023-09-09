@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double radius, circumference, area;
+
+    printf("Enter the radius of the circle: ");
+    scanf("%lf", &radius);
+
+    circumference = 2 * M_PI * radius; // Calculate circumference
+    area = M_PI * pow(radius, 2);     // Calculate area
+
+    printf("Circumference: %.2lf\n", circumference);
+    printf("Area: %.2lf\n", area);
+
+    return 0;
+}
